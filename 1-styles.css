@@ -16,8 +16,8 @@ a::before {
   transition: width 0.6s cubic-bezier(0.25, 1, 0.5, 1) ;
 }
 
-@media (hover: hover) {
-  a:hover::before{
+
+a:hover::before{
     left: 0;
     width: 100%;
   }
